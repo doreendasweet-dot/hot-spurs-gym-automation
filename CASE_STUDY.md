@@ -29,7 +29,7 @@ Pricing structure: Monthly ₦15,000 · Quarterly ₦40,500 (10% discount) · An
 
 Migration Story
 
-The system was originally built on Render's free tier, which uses ephemeral storage — meaning workflow data lived inside the container and was wiped on every restart or redeploy. This caused a full data loss partway through the build. All three workflows were rebuilt from scratch on Railway with a persistent PostgreSQL database, permanently solving the storage issue and making the system production-durable.
+The system was originally built on Render's free tier, which uses ephemeral storage — meaning workflow data lived inside the container and was wiped on every restart or redeploy. This caused a full data loss pathway through the build. All three workflows were rebuilt from scratch on Railway with a persistent PostgreSQL database, permanently solving the storage issue and making the system production-durable.
 
 
 Case Study: Debugging a Silent Failure in a Production n8n Workflow
