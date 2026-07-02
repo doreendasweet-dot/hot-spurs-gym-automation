@@ -69,6 +69,15 @@
               "leftValue": "={{ $json.fields['Renewal Date'] }}",
               "rightValue": "={{ $now.toFormat('yyyy-MM-dd') }}",
               "operator": {
+                "type": "dateTime",
+                "operation": "beforeOrEquals"
+              }
+            },
+            {
+              "id": "65392add-b178-4b20-88c5-3e28eab2049a",
+              "leftValue": "={{ $json.fields['Status'] }}",
+              "rightValue": "Active",
+              "operator": {
                 "type": "string",
                 "operation": "equals"
               }
@@ -863,7 +872,7 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "3bb4d7f4-49b5-4673-90b3-e05859612a24",
+  "versionId": "8d1c9243-2739-4b4a-ab26-15981ea715d1",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "7f0f8b04b583b3bc48bfafe715431755b4f8c3d117fcb725b133773386f9141f"
