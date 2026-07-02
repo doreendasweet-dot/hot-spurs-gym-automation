@@ -1,7 +1,7 @@
 # 🏋️ Hot Spurs Gym — Membership Management Automation
 
 A fully automated gym membership management system built with **n8n**, **Airtable**, **Fillout**, **Cloudinary**, **Gmail**, and **Telegram**. This project automates the entire member lifecycle — from registration to expiry and renewal — with zero manual intervention required.
-
+📄 Read the full debugging case study → [CASE_STUDY.md](./CASE_STUDY.md)
 ---
 
 ## 🚀 Project Overview
